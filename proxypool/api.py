@@ -1,4 +1,3 @@
-'''python
 from flask import Flask, g
 
 from .db import RedisClient
@@ -43,4 +42,4 @@ def get_counts():
 
 if __name__ == '__main__':
     app.run()
-'''
+
